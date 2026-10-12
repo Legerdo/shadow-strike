@@ -1,0 +1,25 @@
+{
+  "name": "martial-arts-one-shot",
+  "private": true,
+  "version": "1.0.0",
+  "description": "SHADOW STRIKE - original 2.5D martial arts brawler built with Phaser 3 + TypeScript",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "smoke": "node scripts/smoke.mjs",
+    "screenshots": "node scripts/capture-readme.mjs"
+  },
+  "dependencies": {
+    "phaser": "3.90.0"
+  },
+  "devDependencies": {
+    "playwright-core": "1.64.0",
+    "typescript": "7.0.2",
+    "vite": "8.3.4",
+    "vitest": "5.0.4"
+  }
+}
